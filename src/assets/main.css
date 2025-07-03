@@ -583,6 +583,7 @@ form button {
 .info-alumno {
   display: flex;
   justify-content: center;
+  color: black !important;
 }
 .info-alumno div {
   display: flex;
