@@ -8,12 +8,12 @@ defineProps({
     <ul>
       <li>
         <div @click="$emit('change-view', 'stats')" :class="{ active: currentView === 'stats' }">
-          apolo
+          Stats
         </div>
       </li>
       <li>
         <div @click="$emit('change-view', 'base')" :class="{ active: currentView === 'base' }">
-          bimbo
+          Base
         </div>
       </li>
     </ul>
